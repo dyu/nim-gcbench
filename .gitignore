@@ -1,0 +1,7 @@
+_cache*
+
+alloc_gc
+alloc_gc_boehm
+alloc_gc_rt
+alloc_malloc
+alloc_nogc
