@@ -1,7 +1,7 @@
 nim-gcbench
 ===========
 
-simple benchark of the different gc strategies provided by nimrod
+simple benchmark of the different gc strategies provided by nimrod
 
 
 Build requirements:
