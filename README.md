@@ -23,7 +23,7 @@ My environment:
 - nimrod 0.9.3
 
 Measurement:
-- allocate a struct with a single int field 200 million times and print out the elapsed time in millis (deallocation/garbage collection time included).
+- allocate a struct (single int field) 200 million times and print out the elapsed time in millis (deallocation/garbage collection time included).
 
 - 2 samples/runs
 
@@ -33,22 +33,26 @@ The results are elapsed time in milliseconds
 ============================================
 gc:
 4280
-4280
+4260
 
 gc_boehm:
-3620
-3670
+3660
+3680
 
 gc_rt:
-4160
-4160
+4130
+4130
 
 nogc:
 7800
-7790
+7760
 
 malloc:
-4690
-4700
+4680
+4670
+
+alloc0:
+7510
+7520
 ```
 
