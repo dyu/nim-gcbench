@@ -5,3 +5,4 @@ alloc_gc_boehm
 alloc_gc_rt
 alloc_malloc
 alloc_nogc
+alloc_alloc0

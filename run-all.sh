@@ -22,3 +22,7 @@ echo "\nnogc:"
 echo "\nmalloc:"
 ./alloc_malloc
 ./alloc_malloc
+
+echo "\nalloc0:"
+./alloc_alloc0
+./alloc_alloc0

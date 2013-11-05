@@ -5,3 +5,4 @@ nimrod c -f -d:release --verbosity:0 --parallelBuild:1 --nimcache:_cache_gc_boeh
 nimrod c -f -d:release --verbosity:0 --parallelBuild:1 --nimcache:_cache_gc_rt -d:useRealtimeGC alloc_gc_rt.nim
 nimrod c -f -d:release --verbosity:0 --parallelBuild:1 --nimcache:_cache_nogc --gc:none alloc_nogc.nim
 nimrod c -f -d:release --verbosity:0 --parallelBuild:1 --nimcache:_cache_malloc --gc:none -d:useMalloc alloc_malloc.nim
+nimrod c -f -d:release --verbosity:0 --parallelBuild:1 --nimcache:_cache_alloc0 alloc_alloc0.nim
